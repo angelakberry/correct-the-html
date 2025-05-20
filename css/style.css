@@ -1,6 +1,6 @@
 @import url("./reset.css");
 
-:root {
+html {
     --forest-dark-green: #2c6e49; /* Deep forest green */
     --forest-light-green: #a7d8a2; /* Soft, light green leaves */
     --bark-brown: #6a4e23; /* Bark-like brown */
@@ -15,7 +15,7 @@ body {
     color: var(--bark-brown);
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +25,13 @@ body {
     min-height: 5dvh;
 }
 
-.image-container {
+image-container {
     max-height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -39,22 +39,22 @@ body {
     color: white;
 }
 
-.post-article {
+article {
     display: flex;
     flex-direction: column;
 }
 
-.title {
+h1 {
     align-self: center;
     padding: 0.25rem;
     margin: 0.25rem;
 }
 
-.paragraph {
+p {
     padding: 0.5rem;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
